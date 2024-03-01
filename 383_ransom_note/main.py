@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import time
+
 def canConstruct( ransomNote: str, magazine: str) -> bool:
 
     dictionary = {}
@@ -27,10 +29,14 @@ def main():
         ("aa", "aab")
     ]
 
-    for test in tests:
+    for (number, test) in enumerate(tests):
+        start_time = time.time()
         result = canConstruct(test[0], test[1])
-        print("Result: " + str(result))
-
+        print(
+            "Test: " + str(number) +
+            " Result: " + str(result) +
+            " Time: {:10.9f}".format(time.time() - start_time)
+        )
 
 if __name__ == "__main__":
     main()

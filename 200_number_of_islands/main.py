@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import time
 
 def numIslands(grid):
     """
@@ -59,9 +60,14 @@ def main():
         ]
     ]
 
-    for test in tests:
+    for (number, test) in enumerate(tests):
+        start_time = time.time()
         result = numIslands(test)
-        print("Result: " + str(result))
+        print(
+            "Test: " + str(number) +
+            " Result: " + str(result) +
+            " Time: {:10.9f}".format(time.time() - start_time)
+        )
 
 
 if __name__ == "__main__":
