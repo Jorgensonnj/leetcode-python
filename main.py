@@ -7,7 +7,7 @@ import importlib
 def help():
     print("Invalid use. Example main.py <option>")
     print("Possible options:")
-    print(" - 200_number_of_islands")
+    print(" - 0200_number_of_islands")
 
 
 def get_dir(args):
