@@ -1,7 +1,7 @@
 
 ## Organization
 
-Python Leetcode solutions are kept in the `questions` directory. Solutions are symlinked to their topic folders accordingly using the symlink.sh script
+Python Leetcode solutions are kept in `problems/`. Solutions are symlinked to their topic folders accordingly using the symlink.sh script
 
 ## Usage
 
