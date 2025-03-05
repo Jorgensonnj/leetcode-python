@@ -6,6 +6,12 @@ Python Leetcode solutions are kept in the `questions` directory. Solutions are s
 ## Usage
 
 ```sh
+./symlink.sh FILE_PATH TOPIC_DIRECTORY...
+```
+
+## Examples
+
+```sh
 ./symlink.sh questions/1768_merge_strings_alternately.py string/ two_pointers/
 ```
 or
