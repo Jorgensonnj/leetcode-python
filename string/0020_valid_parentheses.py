@@ -1,1 +1,1 @@
-../questions/0020_valid_parentheses.py
+../problems/0020_valid_parentheses.py

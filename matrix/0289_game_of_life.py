@@ -1,1 +1,1 @@
-../questions/0289_game_of_life.py
+../problems/0289_game_of_life.py

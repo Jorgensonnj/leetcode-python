@@ -1,1 +1,1 @@
-../questions/1071_greatest_common_divisor_of_strings.py
+../problems/1071_greatest_common_divisor_of_strings.py

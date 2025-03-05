@@ -1,1 +1,1 @@
-../questions/0202_happy_number.py
+../problems/0202_happy_number.py

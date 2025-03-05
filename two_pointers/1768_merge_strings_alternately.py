@@ -1,1 +1,1 @@
-../questions/1768_merge_strings_alternately.py
+../problems/1768_merge_strings_alternately.py

@@ -1,1 +1,1 @@
-../questions/0383_ransom_note.py
+../problems/0383_ransom_note.py

@@ -1,1 +1,1 @@
-../questions/0290_word_pattern.py
+../problems/0290_word_pattern.py
